@@ -42,4 +42,13 @@ class EsperService {
         EventSender sender = epService.getEPRuntime().getEventSender(name)
         sender.sendEvent(params)
     }
+
+    def createSchema(String name, fields) {
+        if (epAdmin.getConfiguration().isEventTypeExists(name)) {
+            epAdmin.getConfiguration().updateMapEventType(name, fields)
+        }
+        else {
+            epAdmin.getConfiguration().addEventType(name, fields)
+        }
+    }
 }

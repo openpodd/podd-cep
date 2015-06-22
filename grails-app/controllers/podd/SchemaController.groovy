@@ -7,7 +7,8 @@ class SchemaController {
 
 	def index() {
 		def jsonObject = request.JSON
-		esperService.createEPL(jsonObject.stmt)
+		esperService.createSchema(jsonObject.name, jsonObject.fields)
+
 		render(contentType: "application/json") {
 			[success: true]
 		}
