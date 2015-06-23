@@ -1,13 +1,23 @@
 package podd
 
+import com.espertech.esper.client.EPStatementException
+
 class QueryController {
 
 	static allowedMethods = [index:'POST']
 	def esperService
 
 	def index() {
+
 		def jsonObject = request.JSON
-		esperService.createEPL(jsonObject.stmt)
+
+		try {
+			esperService.createEPL(jsonObject.stmt)
+        } 
+        catch (EPStatementException e) {
+            render(status: 500, text: e)
+        }
+
 		render(contentType: "application/json") {
 			[success: true]
 		}
