@@ -6,6 +6,7 @@ file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-bo
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate/4.3.8.0/315d9205dc174b125e3dbee7b651ca18ae30cc16/hibernate-4.3.8.0.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.grails.plugins/cache/3.0.1/7a360b62877f81907d9aa6f76b8019912d3a2031/cache-3.0.1.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-ehcache/4.3.8.Final/f040321945cbc2040d49f6cd9e273b4a76b59258/hibernate-ehcache-4.3.8.Final.jar
+file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy.modules.http-builder/http-builder/0.7/ecc89fd507d10f1c9526bb9501e632408f71f239/http-builder-0.7.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/cglib/cglib-nodep/2.2.2/d456bb230c70c0b95c76fb28e429d42f275941/cglib-nodep-2.2.2.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/com.espertech/esper/5.2.0/73e0de7e91bbd1da6440d1d0de52da8efaaa37ba/esper-5.2.0.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.grails.plugins/asset-pipeline/3.0.1/77615e9144d6c11a2d800ab4057430e265f5e061/asset-pipeline-3.0.1.jar
@@ -46,6 +47,8 @@ file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging-annotations/1.2.0.Beta1/2f437f37bb265d9f8f1392823dbca12d2bec06d6/jboss-logging-annotations-1.2.0.Beta1.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/4.3.8.Final/72afcf795dea9d787141fbf665924d634471dcbf/hibernate-core-4.3.8.Final.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache-core/2.4.3/fd258ef6959f27fb678b04f90139ded4588e2d15/ehcache-core-2.4.3.jar
+file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/net.sf.json-lib/json-lib/2.3/f35340c0a0380141f62c72b76c8fb4bfa638d8c1/json-lib-2.3-jdk15.jar
+file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/xml-resolver/xml-resolver/1.2/3d0f97750b3a03e0971831566067754ba4bfd68c/xml-resolver-1.2.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.1/3f42a2396857e4b7d088a63ec265fd7817b14d7a/antlr4-runtime-4.1.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.mozilla/rhino/1.7R4/e982f2136574b9a423186fbaeaaa98dc3e5a5288/rhino-1.7R4.jar
@@ -67,7 +70,6 @@ file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.gebish/geb-spock/0.1
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/2.43.1/3f70d8ba540246518727fdc22570bd05a61528f9/selenium-support-2.43.1.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/2.44.0/ef7b79655dfab115b04dee1e2be22f2c3411c0e9/selenium-remote-driver-2.44.0.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/net.sourceforge.htmlunit/htmlunit/2.15/8d3e66215a2337cfbc5c3316820ab300022baa54/htmlunit-2.15.jar
-file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.4/a9a1fef2faefed639ee0d0fba5b3b8e4eb2ff2d8/httpclient-4.3.4.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.3/e3c02049f2dbbc764681b40094ecf0dcbc99b157/logback-core-1.1.3.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.4.5/c69c0cb613128c69d84a6a0304ddb9fce82e8242/jackson-databind-2.4.5.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.1.6.RELEASE/15f0b22bf89ed468badbc4eec759af2b916d33e4/spring-context-4.1.6.RELEASE.jar
@@ -94,6 +96,9 @@ file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.tra
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.0.Final/5e731d961297e5a07290bfaf3db1fbc8bbbf405a/hibernate-jpa-2.1-api-1.0.0.Final.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/antlr/antlr/2.7.7/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/1.1.0.Final/e84a2122e76f0b6503be78094ddf2108057ac15f/jandex-1.1.0.Final.jar
+file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/c651d5103c649c12b20d53731643e5fffceb536/commons-beanutils-1.8.0.jar
+file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/761ea405b9b37ced573d2df0d1e3a4e0f9edc668/commons-collections-3.2.1.jar
+file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/net.sf.ezmorph/ezmorph/1.0.6/1e55d2a0253ea37745d33062852fd2c90027432/ezmorph-1.0.6.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.abego.treelayout/org.abego.treelayout.core/1.0.1/e31e79cba7a5414cf18fa69f3f0a2cf9ee997b61/org.abego.treelayout.core-1.0.1.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/com.google.javascript/closure-compiler/v20141023/b0bc533425f44e34210d4ecb57721db329f0cb30/closure-compiler-v20141023.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/asm/asm/3.3.1/1d5f20b4ea675e6fab6ab79f1cd60ec268ddc015/asm-3.3.1.jar
@@ -110,12 +115,9 @@ file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-li
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.1.6.RELEASE/89612cafdac51bc92d9bd512e1863a9111a08b4e/spring-test-4.1.6.RELEASE.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.gebish/geb-core/0.10.0/57b443ddcf53c28705829f4d17290d8403bc7a35/geb-core-0.10.0.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.1/75f1d83ce27bab5f29fff034fc74aa9f7266f22a/xalan-2.7.1.jar
-file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/761ea405b9b37ced573d2df0d1e3a4e0f9edc668/commons-collections-3.2.1.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.3/e02368d7b56c0c376f227378a4f77de62864d020/httpmime-4.3.3.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/net.sourceforge.htmlunit/htmlunit-core-js/2.15/a16512d2d032155cfa84fa1dcce79fe0aaa8b56a/htmlunit-core-js-2.15.jar
-file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/xerces/xercesImpl/2.11.0/9bb329db1cfc4e22462c9d6b43a8432f5850e92c/xercesImpl-2.11.0.jar
-file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/net.sourceforge.nekohtml/nekohtml/1.9.21/6841b177ab20385a9e9e0c83be3bf8711a6bc5e4/nekohtml-1.9.21.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/net.sourceforge.cssparser/cssparser/0.9.14/25f3d437b3cd4d4e6fab904d18967c64e4ab671d/cssparser-0.9.14.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-websocket/8.1.15.v20140411/296f3a0d556c55f0b386c1af2a4415d22a9f9e65/jetty-websocket-8.1.15.v20140411.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.4.0/d6a66c7a5f01cf500377bd669507a08cfeba882a/jackson-annotations-2.4.0.jar
@@ -184,6 +186,8 @@ file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-junit
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/1.2/199828b0a7be9626c6eaecb005baddd24bfddc1f/json-smart-1.2.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/com.goldmansachs/gs-collections-api/5.1.0/ea605cdf64cab5fc7b48c99f061d4c8db05b6ff1/gs-collections-api-5.1.0.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar
+file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.4/a9a1fef2faefed639ee0d0fba5b3b8e4eb2ff2d8/httpclient-4.3.4.jar
+file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.11/7eaaaf2238f324e2b02dbd4d6ced6778b99328/slf4j-api-1.7.11.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/4.0.5.Final/2a581b9edb8168e45060d8bad8b7f46712d2c52c/hibernate-commons-annotations-4.0.5.Final.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.1-GA/d9a09f7732226af26bf99f19e2cffe0ae219db5b/javassist-3.18.1-GA.jar
@@ -192,8 +196,9 @@ file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-exec/1.1/7dfdf16fade726000564386825ed6d911a44ba1/commons-exec-1.1.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/803ff252fedbd395baffd43b37341dc4a150a554/jna-3.4.0.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar
-file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar
+file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/xerces/xercesImpl/2.11.0/9bb329db1cfc4e22462c9d6b43a8432f5850e92c/xercesImpl-2.11.0.jar
+file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/net.sourceforge.nekohtml/nekohtml/1.9.21/6841b177ab20385a9e9e0c83be3bf8711a6bc5e4/nekohtml-1.9.21.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar
-file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.4.01/3789d9fada2d3d458c4ba2de349d48780f381ee3/xml-apis-1.4.01.jar
 file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar
+file:/Users/crosalot/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.4.01/3789d9fada2d3d458c4ba2de349d48780f381ee3/xml-apis-1.4.01.jar
