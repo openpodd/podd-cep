@@ -7,9 +7,12 @@ import com.espertech.esper.client.EPServiceProviderManager
 import com.espertech.esper.client.EventSender
 import com.espertech.esper.client.EventBean
 import com.espertech.esper.client.UpdateListener
+import com.espertech.esper.client.PropertyAccessException
 
 import javax.annotation.PostConstruct
 
+import groovyx.net.http.HTTPBuilder
+import groovyx.net.http.Method
 
 class EsperService {
     EPServiceProvider epService
@@ -32,7 +35,30 @@ class EsperService {
         stmt.addListener(new UpdateListener() {
             @Override
             void update(EventBean[] newEvents, EventBean[] oldEvents) {
-                // NOOP
+                
+                try {
+                    if (newEvents.createReportUrl) {
+
+                        def url = newEvents[0].createReportUrl;
+
+                        println 'call api: ' + url
+                        def http = new HTTPBuilder(url);
+                        http.request(Method.POST) {
+
+                            uri.query = [related_ids: newEvents.id]
+                            
+                            response.success = { resp ->
+                                println "Success! ${resp.status}"
+                            }
+                            response.failure = { resp ->
+                                println "Request failed with status ${resp.status}"
+                            }
+                        }
+                        
+                    }
+                }
+                catch (PropertyAccessException e) {
+                }
             }
         })
         return stmt
