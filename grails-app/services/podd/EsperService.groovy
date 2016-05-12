@@ -32,6 +32,8 @@ class EsperService {
 
     def createEPL(String epl) {
         def stmt = epAdmin.createEPL(epl)
+
+        println 'createEPL' + epl
         stmt.addListener(new UpdateListener() {
             @Override
             void update(EventBean[] newEvents, EventBean[] oldEvents) {
@@ -68,7 +70,6 @@ class EsperService {
         EventSender sender = epService.getEPRuntime().getEventSender(name)
         sender.sendEvent(params)
         println 'publishReport'
-        println params
     }
 
     def createSchema(String name, fields) {
@@ -79,7 +80,6 @@ class EsperService {
             epAdmin.getConfiguration().addEventType(name, fields)
         }
 
-        println 'createSchema'
-        println name
+        println 'createSchema' + name
     }
 }

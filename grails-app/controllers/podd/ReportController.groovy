@@ -12,7 +12,6 @@ class ReportController {
     def index() {
 
         println 'Received request'
-        println request.JSON
 
         def jsonObject = request.JSON
         
