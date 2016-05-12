@@ -67,6 +67,8 @@ class EsperService {
     def publishReport(String name, params) {
         EventSender sender = epService.getEPRuntime().getEventSender(name)
         sender.sendEvent(params)
+        println 'publishReport'
+        println params
     }
 
     def createSchema(String name, fields) {
@@ -76,5 +78,8 @@ class EsperService {
         else {
             epAdmin.getConfiguration().addEventType(name, fields)
         }
+
+        println 'createSchema'
+        println name
     }
 }
