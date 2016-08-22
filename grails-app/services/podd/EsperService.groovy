@@ -10,6 +10,7 @@ import com.espertech.esper.client.UpdateListener
 import com.espertech.esper.client.PropertyAccessException
 
 import javax.annotation.PostConstruct
+import java.lang.NullPointerException
 
 import groovyx.net.http.HTTPBuilder
 import groovyx.net.http.Method
@@ -43,7 +44,7 @@ class EsperService {
 
                         def url = newEvents[0].createReportUrl;
 
-                        println 'call api: ' + url
+                        println 'Listener: call api: ' + url
                         def http = new HTTPBuilder(url);
                         http.request(Method.POST) {
 
@@ -61,6 +62,8 @@ class EsperService {
                 }
                 catch (PropertyAccessException e) {
                 }
+                catch (NullPointerException e) {
+                } 
             }
         })
         return stmt

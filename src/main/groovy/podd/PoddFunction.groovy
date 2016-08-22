@@ -7,7 +7,7 @@ import groovyx.net.http.Method
 class PoddFunction {
 	public static final int promoteState(int reportId, String responseUrlPattern) {
 		def url = responseUrlPattern.replace('{{id}}', reportId.toString())
-		println 'call api: ' + url
+		println 'Function: call api: ' + url
 
 		def http = new HTTPBuilder(url)
 
