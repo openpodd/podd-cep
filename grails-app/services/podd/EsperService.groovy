@@ -18,6 +18,7 @@ import groovyx.net.http.Method
 class EsperService {
     EPServiceProvider epService
     EPAdministrator epAdmin
+    def stmts
 
     @PostConstruct
     void init() {
@@ -29,12 +30,21 @@ class EsperService {
         epService = EPServiceProviderManager.getDefaultProvider(config);
         epService.initialize()
         epAdmin = epService.getEPAdministrator()
+
+        stmts = [:]
     }
 
-    def createEPL(String epl) {
-        def stmt = epAdmin.createEPL(epl)
+    def createEPL(String epl, String code) {
 
-        println 'createEPL' + epl
+        def oldStmt = stmts.get(code)
+        if (oldStmt) {
+            println 'Exist stmt code: ' + code
+            println 'Remove stmt code: ' + code
+            oldStmt.removeAllListeners()
+            oldStmt.destroy()
+        }
+
+        def stmt = epAdmin.createEPL(epl)
         stmt.addListener(new UpdateListener() {
             @Override
             void update(EventBean[] newEvents, EventBean[] oldEvents) {
@@ -66,6 +76,10 @@ class EsperService {
                 } 
             }
         })
+        println 'createEPL: ' + code + ': ' + epl
+
+        stmts[code] = stmt
+
         return stmt
     }
 

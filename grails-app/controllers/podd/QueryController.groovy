@@ -12,7 +12,7 @@ class QueryController {
 		def jsonObject = request.JSON
 
 		try {
-			esperService.createEPL(jsonObject.stmt)
+			esperService.createEPL(jsonObject.stmt, jsonObject.code)
         } 
         catch (EPStatementException e) {
             render(status: 500, text: e)
